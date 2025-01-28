@@ -24,6 +24,12 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
+        <head>
+           <meta
+            name="google-site-verification"
+            content="hKffmbKbf1Kty9DdP2_Gr71bTyn72yvT4U2P9ys6_VE"
+          />
+        </head>
         <body className= {cn( inter.className,"bg-white dark:bg-[#313338]")}>
         <ThemeProvider
         attribute="class"
